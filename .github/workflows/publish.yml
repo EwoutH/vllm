@@ -45,7 +45,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-          os: ['ubuntu-20.04']
+          os: ['ubuntu-22.04']
           python-version: ['3.8', '3.9', '3.10', '3.11', '3.12']
           cuda-version: ['11.8'] # Github runner can't build anything older than 11.8
 
